@@ -12,13 +12,15 @@ int main(void)
 {
 int i;
 printf("Original array: ");
-  for (i=0; i<10; i + +) 
-    printf("%d ",num[i]);
-printf ("\n");
-qsort(num, 10, sizeof (int), (int(*) (const void *, const void *)) comp);
-printf("Sorted array: ");
+    for (i=0; i<10; i + +) 
+    {
+        printf("%d ",num[i]);
+    }
+ printf ("\n");
+ qsort(num, 10, sizeof (int), (int(*) (const void *, const void *)) comp);
+ printf("Sorted array: ");
     for(i = 0; i <10; i + + ) 
-      printf("%d ", num[i]);
+        printf("%d ", num[i]);
 return 0;
 }
 
